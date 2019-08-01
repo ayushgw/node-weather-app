@@ -1,0 +1,40 @@
+body {
+    width: 40rem;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    color: #333333;
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    padding: 1rem 0;
+}
+
+.footer {
+    color: #afc2cc;
+    margin: 1rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #afc2cc;
+}
