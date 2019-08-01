@@ -24,7 +24,9 @@ weatherForm.addEventListener('submit', (e) => {
                     <p class="result-title">Location</p>
                     <p class="result-body">${data.location}</p>
                     <p class="result-title">Forecast</p>
-                    <p class="result-body">${data.forecast}</p>
+                    <p class="result-body">${data.forecast.summary} It is currently ${data.forecast.temperature} degrees out. There is a ${data.forecast.precipProbability * 100}% chance of rain.</p>
+                    <p class="result-title">More Info</p>
+                    <p class="result-body">Pressure &mdash; ${data.forecast.pressure} Pa <br> Wind Speed &mdash; ${data.forecast.windSpeed} KT <br> Visibility &mdash; ${data.forecast.visibility} Miles</p>
                     `
                 }
             })
