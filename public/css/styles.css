@@ -38,3 +38,28 @@ img {
     padding: 2rem 0;
     border-top: 1px solid #afc2cc;
 }
+
+input {
+    border: 1px soli #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+#result {
+    color: #888888;
+}
+
+#error {
+    color: rgb(238, 106, 106)
+}
+
+.messages {
+    margin-top: 2rem;
+}
