@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Ayush Goswami',
-        message: 'lorem ipsum'
+        message: 'Help will always be given at Hogwarts to those who ask for it'
     })
 })
 
